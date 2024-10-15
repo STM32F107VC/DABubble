@@ -1,0 +1,9 @@
+@import "../../styles.scss";
+
+.main-content {
+    background: linear-gradient(1.46deg, #313AE6 1.22%, #797EF3 98.76%);
+    height: 100vh;
+    width: 100vw;
+
+    @include dFlex();
+}
